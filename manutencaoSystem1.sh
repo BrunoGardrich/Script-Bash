@@ -1,6 +1,6 @@
 #!/bin/bash
 
-log_file="HOME/manutencao.log"
+log_file="$HOME/manutencao.log"
 
 
 log(){
@@ -70,3 +70,5 @@ menu() {
         esac
     done
 }
+
+menu
